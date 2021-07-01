@@ -1,0 +1,84 @@
+*{margin: 0; padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+.container {
+    background: #d3efdf;
+    max-width: 70%;
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 10px;
+    border: 4px solid #b1c9bb;
+    overflow: hidden;
+}
+
+.logo {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.add-task {
+    padding: 10px 15px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #b1c9bb;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.todo-list {
+    float: left;
+    width: 41%;
+}
+
+.box {
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #b1c9bb;
+    padding: 10px 15px;
+    margin: 15px 0;
+}
+
+.complate-list {
+    float: right;
+    width: 41%;
+}
+
+.box h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #57635c;
+    border-bottom: 1px solid #b1c9bb;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.delete {
+    float: right;
+    border: 0;
+    background: red;
+    color: white;
+    padding: 3px 5px;
+}

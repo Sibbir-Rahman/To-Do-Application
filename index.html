@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do Application</title>
+    <link rel="icon" href="photo/icon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="Style.css" type="text/css"> 
+</head>
+<body>
+
+    <section>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="photo/tasks-solid.svg" alt="logo">
+                </div>
+
+                <div class="heading">
+                    <h1>TO-DO APP</h1>
+                </div>
+            </div>
+
+            <div class="add-task">
+                <form>
+                    <label for="new-task">Add New Task</label>
+                    <input type="text" id="new-task" name="new-task">
+                    <button type="submit">Add Task</button>
+                </form>
+            </div>
+
+            <div class="todo-list box">
+                <h2>incomplete-task</h2>
+                <ul id="incomplete-items">
+                    <li id="incomplete-item">
+                        <input type="checkbox">
+                        <label>Coding</label>
+                    </li>
+                    <li id="incomplete-item">
+                        <input type="checkbox">
+                        <label>Coding</label>
+                    </li>
+                    <li id="incomplete-item">
+                        <input type="checkbox">
+                        <label>Coding</label>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="complate-list box">
+                <h2>completed-task</h2>
+                <ul id="complete-items">
+                    <li id="complete-item">
+                        Coding
+                        <button class="delete">Delete</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
